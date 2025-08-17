@@ -1,7 +1,8 @@
 # Syntri — Agentic AI Business Intelligence Service for SMBs
 
 Syntri is a **WhatsApp‑native business intelligence copilot** that uses **agentic AI** (IBM watsonx.ai Granite) to forecast cash flow, surface risks, and execute actions (UPI payment links, supplier reminders, reorders) directly from chat.
-[Powered by IBM WATSONX.AI]
+
+[**Powered by IBM WATSONX.AI**]
 ---
 
 # Why Syntri
