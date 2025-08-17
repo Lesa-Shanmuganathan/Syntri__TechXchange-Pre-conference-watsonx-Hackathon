@@ -1,6 +1,6 @@
 """
 WatsonX Integration Service
-Minimal LLM usage for message personalization and intent detection
+LLM usage for message personalization and intent detection
 """
 
 import os
@@ -39,9 +39,7 @@ class WatsonXService:
     
     def personalize_message(self, template_type, context):
         """
-        Personalize message templates using minimal LLM calls
-        Template types: payment_reminder, reorder_alert, followup
-        """
+        Personalize message templates using LLM calls  """
         if not self.client:
             return self._get_fallback_template(template_type, context)
         
@@ -211,4 +209,5 @@ Business Team
         elif any(word in message for word in ['payment', 'remind', 'reorder', 'alert', 'pay']):
             return 'action_request'
         else:
+
             return 'unknown'
