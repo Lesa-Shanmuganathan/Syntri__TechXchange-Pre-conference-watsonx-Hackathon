@@ -2,7 +2,8 @@
 
 **Goal:** Detect risks proactively and help the owner act before a cash dip hurts operations and provides personalized actions which can be performed.
 
-![Predictive Advisory Loop](../docs/Predictive_Advisory_Loop.png)
+![SAMPLE OUTPUT](https://drive.google.com/uc?export=view&id=1kbJqiFk9AO0zDFanAze9UyhwfJYEipgF)
+
 
 ## Agent Design
 - **Planner** (Granite‑13B‑instruct‑v2): decides if a dip/anomaly warrants action and drafts the alert.
