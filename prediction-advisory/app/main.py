@@ -75,3 +75,4 @@ async def health_check():
         "service": "cash-flow-alert-system"
 
     }
+
