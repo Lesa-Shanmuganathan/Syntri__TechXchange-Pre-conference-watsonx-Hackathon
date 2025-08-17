@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  mongo:
+    image: mongo:6
+    container_name: syntri-mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=example
+    ports:
+      - "27017:27017"
+    volumes:
+      - syntri_mongo:/data/db
+volumes:
+  syntri_mongo:
