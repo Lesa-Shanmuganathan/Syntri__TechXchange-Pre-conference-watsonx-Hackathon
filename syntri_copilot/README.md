@@ -24,7 +24,3 @@
 ```bash
 curl -X POST http://localhost:8000/query -H "Content-Type: application/json" -d '{"business_id":"acme-001","question":"profit last week vs previous?"}'
 ```
-
-## Notes
-- For OCR accuracy on mobile photos, auto‑deskew + grayscale are enabled.
-- Each answer includes the **aggregation pipeline** used for transparency.
