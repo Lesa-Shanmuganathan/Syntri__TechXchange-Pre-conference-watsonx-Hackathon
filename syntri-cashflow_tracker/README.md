@@ -12,10 +12,5 @@
 ## Scheduler
 - Default: Sunday 18:00 local time via APScheduler
 
-## Manual Trigger
-```bash
-curl -X POST http://localhost:8000/reports/run-weekly -H "Content-Type: application/json" -d '{"business_id":"acme-001"}'
-```
-
 ## Storage
 - Each report is stored in `reports` (or within `risk_events` as snapshots) with a link to the chart image.
