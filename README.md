@@ -99,15 +99,14 @@ Syntri is a **WhatsApp‑native business intelligence copilot** that uses **agen
 { "business_id": "acme-001", "url": "...", "ocr_text": "...", "json": {} }
 
 
----
 
 
-# Team
+
+## Team
 **Team Syntri** — IBM TechXchange 2025 Pre‑conference watsonx Hackathon  
 - Lesa Shanmuganathan
 - Indhuja I
 
----
 
-# License
+## License
 MIT © Team Syntri
