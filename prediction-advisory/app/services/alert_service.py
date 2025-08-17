@@ -9,34 +9,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-class AlertService:
-    async def simulate_action(self, alert_id, action_index):
-        # Mock logic for demo alert
-        if alert_id == "alert_demo_2025":
-            actions = [
-                "Delay Vendor V204 by 2 days",
-                "Request early payment from Customer C102",
-                "Reduce discretionary spend this week"
-            ]
-            # Simulate a result for the selected action
-            return {
-                "simulation_message": {
-                    "action_description": actions[action_index],
-                    "result": "resolved" if action_index == 0 else "improved",
-                    "min_balance": -50000 if action_index == 0 else -120000
-                }
-            }
-        # ...existing code for real alerts...
-        raise Exception("Alert not found")
 
-    async def confirm_action(self, alert_id, action_index):
-        # Mock logic for demo alert
-        if alert_id == "alert_demo_2025":
-            return True
-        # ...existing code for real alerts...
-        return False
-
-'''
 class AlertService:
     def __init__(self):
         self.forecasting_service = ForecastingService()
@@ -142,34 +115,6 @@ class AlertService:
                 "impact": f"Saves ₹{sub['amount']:.0f}"
             })
         
-        # Fallback actions if no data
-        if not actions:
-            actions = [
-                {
-                    "type": "delay_payment",
-                    "description": "Delay Vendor V204 payment by 2 days",
-                    "amount": 3000,
-                    "target_id": "V204",
-                    "delay_days": 2,
-                    "impact": "Keeps balance above ₹8,000"
-                },
-                {
-                    "type": "early_collection",
-                    "description": "Collect ₹2,500 from Client C112 earlier",
-                    "amount": 2500,
-                    "target_id": "C112",
-                    "discount": 5,
-                    "impact": "Improves balance by ₹2,500"
-                },
-                {
-                    "type": "pause_subscription",
-                    "description": "Pause non-essential subscription ₹1,200",
-                    "amount": 1200,
-                    "target_id": "SUB001",
-                    "duration": "1 week",
-                    "impact": "Saves ₹1,200"
-                }
-            ]
         
         return actions[:3]  # Return max 3 actions
     
@@ -254,4 +199,5 @@ class AlertService:
             {"$set": {"actioned": True, "actioned_at": datetime.utcnow()}}
         )
 
-        return True'''
+
+        return True
