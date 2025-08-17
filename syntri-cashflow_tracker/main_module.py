@@ -24,7 +24,7 @@ load_dotenv()
 MONGO_URI = os.getenv("MONGO_URI")
 MONGO_DB = os.getenv("MONGO_DB", "syntri")
 MONGO_COLLECTION = os.getenv("MONGO_COLLECTION", "financial_records")
-BUSINESS_ID = os.getenv("BUSINESS_ID", "demo-sme-001")
+
 TZ = ZoneInfo(os.getenv("TIMEZONE", "Asia/Kolkata"))
 
 TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
@@ -367,4 +367,5 @@ if __name__ == "__main__":
         print(f"❌ ERROR: {e}")
         import traceback
         traceback.print_exc()
+
         exit(1)
