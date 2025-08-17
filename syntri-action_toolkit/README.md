@@ -2,7 +2,8 @@
 
 **Goal:** Reduce “I’ll do it later” friction. Convert advice into a **one‑tap action**.
 
-![Action Toolkit](https://drive.google.com/file/d/1kVBcueh-pcs_vA73iH9b6RBe05ZG2z-k/view?usp=drivesdk)
+![SAMPLE OUTPUT](https://drive.google.com/uc?export=view&id=1kVBcueh-pcs_vA73iH9b6RBe05ZG2z-k)
+
 
 ## Supported Actions
 - **Pay Now** — server‑generated UPI deep link
