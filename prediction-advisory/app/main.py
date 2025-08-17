@@ -1,3 +1,4 @@
+#main
 from fastapi import FastAPI, HTTPException, Request, BackgroundTasks
 from fastapi.responses import HTMLResponse
 from contextlib import asynccontextmanager
@@ -72,4 +73,5 @@ async def health_check():
         "status": "healthy",
         "timestamp": datetime.utcnow(),
         "service": "cash-flow-alert-system"
+
     }
