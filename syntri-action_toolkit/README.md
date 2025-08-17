@@ -4,7 +4,7 @@
 
 ![SAMPLE OUTPUT](https://drive.google.com/uc?export=view&id=1kVBcueh-pcs_vA73iH9b6RBe05ZG2z-k)
 
-| Image 1 | Image 2 |
+
 |---------|---------|
 | ![img1](https://drive.google.com/uc?export=view&id=1kj2jStdyn_KfZKYABu2kySQqt90vo3MC)) | ![img2](https://drive.google.com/uc?export=view&id=1knbq9eIxiHxmewYIXfK5UQqdavMnrRcQ) |
 
