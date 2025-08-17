@@ -2,7 +2,8 @@
 
 **Goal:** Deliver a **once‑a‑week** executive snapshot over WhatsApp: chart + narrative.
 
-![Cash Flow Reports](../docs/CashFlow_Reports.png)
+![SAMPLE OUTPUT](https://drive.google.com/uc?export=view&id=1kgZyLDWe7AlwTaIMyWNAwBWcejFOJCVE)
+
 
 ## What It Sends
 - Line chart of cash in/out and net position
